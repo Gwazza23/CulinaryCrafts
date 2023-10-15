@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Montserrat:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap");
+
+:root {
+  --yellow: #ffc200;
+  --white: #ffffff;
+  --black: #333333;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
