@@ -17,7 +17,7 @@ function SectionTwo() {
         </div>
       </div>
       <div className="section-two-pt2">
-        <img src="/media/section-two-img.webp" alt=" " />
+        <img loading="lazy" src="/media/section-two-img.webp" alt=" " />
       </div>
     </div>
   );
