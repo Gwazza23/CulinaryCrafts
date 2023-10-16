@@ -60,7 +60,7 @@
 }
 
 @media only screen and (max-width: 425px) {
-    .section-four-container {
+    #section-four-container {
         flex-direction: column-reverse;
     }
     .section-four-pt1, .section-four-pt2 {

@@ -1,0 +1,77 @@
+.section-divider-container {
+    height: 70dvh;
+    display: flex;
+}
+.section-divider-info, .section-divider-img {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section-divider-text {
+    width: 80%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.section-divider-text h2 {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 3rem;
+}
+.section-divider-text p {
+    font-weight: 300;
+    font-size: 0.9rem;
+    margin: 10px 0px;
+}
+.section-divider-text a {
+    border-radius: 3px;
+    padding: 10px;
+    width: fit-content;
+    background-color: var(--black);
+    color: var(--yellow);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.section-divider-text a:hover {
+    color: var(--white);
+}
+
+.section-divider-img img {
+    width: 50%;
+   aspect-ratio: 16/16;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .section-divider-text {
+        height: 70%;
+    }
+    .section-divider-text h2 {
+        font-size: 2.5rem;
+    }
+    .section-divider-text p {
+        font-size: 0.8rem;
+    }
+    .section-divider-text a {
+        font-size: 0.9rem;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .section-divider-container {
+        flex-direction: column-reverse;
+    }
+    .section-divider-info, .section-divider-img {
+        width: 100%;
+        height: 50%;
+    }
+    .section-divider-img img {
+        width: 50%;
+    }
+    .section-divider-text {
+        align-items: center;
+        text-align: center;
+    }
+}

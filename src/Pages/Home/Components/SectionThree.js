@@ -3,12 +3,12 @@ import "./SectionThree.css";
 
 function SectionThree() {
   return (
-    <div className="section-three-container">
-      <div className="section-three-pt1">
+    <div className="section-divider-container" id="section-three-container" >
+      <div className="section-divider-img">
         <img loading="lazy" src="/media/section-three-img.webp" alt=" " />
       </div>
-      <div className="section-three-pt2">
-        <div className="section-three-text">
+      <div className="section-divider-info">
+        <div className="section-divider-text">
           <h2>Indulge Your Taste Buds</h2>
           <p>
             Embark on a culinary journey with our diverse selection of

@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 function SectionFour() {
   return (
-    <div className="section-four-container">
-      <div className="section-four-pt1">
+    <div className="section-divider-container" id="section-four-container" >
+      <div className="section-divider-info">
         <div className="section-four-text">
           <h2>Experience Global Flavours</h2>
           <p>
@@ -16,7 +16,7 @@ function SectionFour() {
           <Link>Cuisines</Link>
         </div>
       </div>
-      <div className="section-four-pt2" >
+      <div className="section-divider-img" >
         <img loading="lazy" src="/media/section-four-img.webp" alt=" " />
       </div>
     </div>

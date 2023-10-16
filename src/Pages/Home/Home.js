@@ -1,4 +1,4 @@
-import React from "react";
+import './Home.css';
 import SectionOne from "./Components/SectionOne";
 import SectionTwo from "./Components/SectionTwo";
 import SectionThree from "./Components/SectionThree";
