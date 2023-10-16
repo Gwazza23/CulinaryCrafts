@@ -1,0 +1,77 @@
+.section-two-container {
+    border: 1px sold red;
+    height: 70dvh;
+    display: flex;
+}
+.section-two-pt1, .section-two-pt2 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section-two-text {
+    width: 80%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.section-two-text h2 {
+    font-family: 'Dancing Script';
+    font-weight: 700;
+    font-size: 3rem;
+}
+.section-two-text p {
+    font-weight: 300;
+    font-size: 0.9rem;
+    margin: 10px 0px;
+}
+.section-two-text a {
+    border-radius: 3px;
+    padding: 10px;
+    width: fit-content;
+    background-color: var(--black);
+    color: var(--yellow);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.section-two-text a:hover {
+    color: var(--white);
+}
+
+.section-two-pt2 img {
+    width: 80%;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .section-two-text {
+        height: 70%;
+    }
+    .section-two-text h2 {
+        font-size: 2.5rem;
+    }
+    .section-two-text p {
+        font-size: 0.8rem;
+    }
+    .section-two-text a {
+        font-size: 0.9rem;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .section-two-container {
+        flex-direction: column-reverse;
+    }
+    .section-two-pt1, .section-two-pt2 {
+        width: 100%;
+        height: 50%;
+    }
+    .section-two-pt2 img {
+        width: 80%;
+    }
+    .section-two-text {
+        align-items: center;
+        text-align: center;
+    }
+}

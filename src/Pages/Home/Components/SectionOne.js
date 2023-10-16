@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAnglesDown } from "@fortawesome/free-solid-svg-icons";
 import { useEffect } from "react";
 
-function SectionOne() {
+function SectionOne() {  
   function rotateWords() {
     //select text
     const text = document.querySelector(".section-one-button-text p");
@@ -30,12 +30,12 @@ function SectionOne() {
         <h1>CulinaryCrafts</h1>
         <h3>Elevating Every Bite, One Click at a Time</h3>
       </div>
-      <button className="section-one-button">
+      <a className="section-one-button" href="#section-two-container" >
         <FontAwesomeIcon id="section-one-button-icon" icon={faAnglesDown} />
         <div className="section-one-button-text">
           <p>Chinese - Italian - Indian - Mexican -</p>
         </div>
-      </button>
+      </a>
     </div>
   );
 }
