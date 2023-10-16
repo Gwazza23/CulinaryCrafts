@@ -13,6 +13,7 @@
 
 .section-three-pt1 img {
   width: 50%;
+  aspect-ratio: 16/16;
 }
 
 .section-three-text {
