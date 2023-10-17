@@ -13,7 +13,7 @@ function SectionOne() {
       //each character is rotated by 5.8deg increases than the previous - making the text rotate around the icon
       .map(
         (char, i) =>
-          `<span style="transform:rotate(${i * 5.8}deg)" >${char}</span>`
+          `<span style="transform:rotate(${i * 9.55}deg)" >${char}</span>`
       )
       //each character is joined back together to create the text again
       .join("");

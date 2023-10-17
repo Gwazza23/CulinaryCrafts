@@ -22,7 +22,7 @@ function SectionFive() {
       .split("")
       .map(
         (char, i) =>
-          `<span style="transform:rotate(${i * 3.6}deg)" >${char}</span>`
+          `<span style="transform:rotate(${i * 5.55}deg)" >${char}</span>`
       )
       .join("");
   }
