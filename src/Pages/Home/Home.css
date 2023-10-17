@@ -76,3 +76,9 @@
         text-align: center;
     }
 }
+
+@media only screen and (max-width: 320px) {
+    .section-divider-container {
+        padding-bottom: 30px;
+    }
+}
