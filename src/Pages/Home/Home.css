@@ -62,6 +62,7 @@
 @media only screen and (max-width: 425px) {
     .section-divider-container {
         flex-direction: column-reverse;
+        padding-bottom: 15px;
     }
     .section-divider-info, .section-divider-img {
         width: 100%;
